@@ -1,0 +1,28 @@
+# nubit light node for android
+nubit light node for android
+Запуск Lightnode на Андроид
+ДА! На андроиде, телефоне или планшете! Если у вас есть несколько заброшенных устройств Android, возможно, вы можете попробовать их！ Pubkey этой версии также может быть проверен!
+
+Внимание, убедитесь что на вашем устройстве свободно минимум 16GB памяти, в противном случае, успех не гарантирован. Если у вас возникли трудности, обратитесь в нашу техподдержку в дискорд.
+
+Шаг-1 : скачайте F-Droid App
+Copy
+https://f-droid.org/
+Шаг-2 : скачайте Termux в F-Droid App
+
+Шаг-3 : Запустите lightnode в Termux 
+Copy
+curl -sL1 https://nubit.sh/nubit-and.sh | bash
+
+Шаг-4 : Вот и все
+Успех!
+
+FAQ:
+IЕсли возникла какая-то проблема, например ошибка gzip, просто запустите cmd:
+
+Copy
+rm -rf $HOME/.nubit-light-nubit-alphatestnet-1
+а затем, запустите
+
+Copy
+curl -sL1 https://nubit.sh/nubit-and.sh | bash
